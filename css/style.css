@@ -1,0 +1,169 @@
+:root {
+  --main-title-color: #ffffff;
+  --secondary-title-color: #212121;
+  --third-title-color: #212121;
+  --main-text-color: #757575;
+  --hover-focus-color: #2196f3;
+  --hover-button-text: #ffffff;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: #212121;
+}
+
+/*---------------header-----------*/
+.header-logo {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: black;
+}
+
+.web {
+  color: #2196f3;
+}
+
+.contacts {
+  color: var(--main-text-color);
+  font-style: normal;
+}
+
+.contacts:hover,
+.contacts:focus {
+  color: var(--hover-focus-color);
+}
+
+/*---------------hero-----------*/
+.hero {
+  background-color: #2f303a;
+}
+
+.hero-titel {
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.hero-button {
+  cursor: pointer;
+}
+
+.hero-button:hover,
+.hero-button:focus {
+  background-color: var(--hover-focus-color);
+  color: var(--hover-button-text);
+}
+
+.header-link:hover,
+.header-link:focus {
+  color: #2196f3;
+}
+
+.header-link {
+  color: #212121;
+}
+
+/*---------------main-----------*/
+
+.main-list-title {
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--third-title-color);
+}
+
+.main-list-text {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  color: var(--main-text-color);
+}
+
+/*-----------------title-hide----------------*/
+.title-hide {
+  display: none;
+}
+
+/*-----------------first-section---------------------*/
+.section-title {
+  font-size: 36px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  color: var(--secondary-title-color);
+}
+
+/*-----------------second-section---------------------*/
+
+.section-command {
+  font-size: 36px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  color: var(--secondary-title-color);
+}
+
+.section-command-title {
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--third-title-color);
+}
+
+.section-command-text {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+.section-second {
+  background-color: #f5f4fa;
+}
+
+/*-----------------footer---------------*/
+.adress-text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+
+.footer {
+  background-color: #2f303a;
+}
+
+.studio-footer {
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+
+/*-----------------portfolio----------------*/
+
+/* identical to box height, or 200% */
+
+.main-portfolio-titel {
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--secondary-title-color);
+}
+
+.main-portfolio-text {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.03em;
+  columns: var(--main-text-color);
+}
