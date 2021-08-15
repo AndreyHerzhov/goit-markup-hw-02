@@ -3,13 +3,21 @@
   --secondary-title-color: #212121;
   --third-title-color: #212121;
   --main-text-color: #757575;
-  --hover-focus-color: #2196f3;
+  --hover-focus-color: #188ce8;
   --hover-button-text: #ffffff;
 }
 
 body {
   font-family: "Roboto", sans-serif;
   color: #212121;
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
 }
 
 /*---------------header-----------*/
@@ -28,8 +36,12 @@ body {
 }
 
 .contacts {
-  color: var(--main-text-color);
   font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--main-text-color);
 }
 
 .contacts:hover,
@@ -52,11 +64,17 @@ body {
 
 .hero-button {
   cursor: pointer;
+  background-color: #2196f3;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.875;
+  letter-spacing: 0.06em;
+  color: #ffffff;
 }
 
 .hero-button:hover,
 .hero-button:focus {
-  background-color: var(--hover-focus-color);
+  background-color: #188ce8;
   color: var(--hover-button-text);
 }
 
@@ -66,6 +84,11 @@ body {
 }
 
 .header-link {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
   color: #212121;
 }
 
@@ -109,6 +132,7 @@ body {
 }
 
 .section-command-title {
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
   letter-spacing: 0.03em;
@@ -149,6 +173,19 @@ body {
   color: #ffffff;
 }
 
+.contacts-footer {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.contacts-footer:focus,
+.contacts-footer:hover {
+  color: #2196f3;
+}
+
 /*-----------------portfolio----------------*/
 
 /* identical to box height, or 200% */
@@ -165,5 +202,23 @@ body {
   font-size: 16px;
   line-height: 1.9;
   letter-spacing: 0.03em;
-  columns: var(--main-text-color);
+  color: var(--main-text-color);
+}
+
+.hero-button-portfolio {
+  background-color: #f5f4fa;
+  color: #212121;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.hero-button-portfolio:hover,
+.hero-button-portfolio:focus {
+  cursor: pointer;
+  background-color: #2196f3;
+  /* shadow-middle */
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+  color: #ffffff;
 }
