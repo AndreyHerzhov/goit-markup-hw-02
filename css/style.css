@@ -14,6 +14,7 @@ body {
 
 .list {
   list-style: none;
+  text-decoration: none;
 }
 
 .link {
@@ -174,6 +175,7 @@ body {
 }
 
 .contacts-footer {
+  font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
@@ -221,4 +223,8 @@ body {
     0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
   color: #ffffff;
+}
+
+.current {
+  color: #2196f3;
 }
