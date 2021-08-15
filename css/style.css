@@ -7,6 +7,10 @@
   --hover-button-text: #ffffff;
 }
 
+address{
+  font-style: normal;
+}
+
 body {
   font-family: "Roboto", sans-serif;
   color: #212121;
