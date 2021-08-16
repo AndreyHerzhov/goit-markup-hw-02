@@ -238,3 +238,7 @@ body {
 .current {
   color: #2196f3;
 }
+
+.prtfolio-pics {
+  text-decoration: none;
+}
