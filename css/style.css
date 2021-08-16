@@ -7,7 +7,7 @@
   --hover-button-text: #ffffff;
 }
 
-address{
+address {
   font-style: normal;
 }
 
@@ -205,6 +205,7 @@ body {
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--secondary-title-color);
+  text-decoration: none;
 }
 
 .main-portfolio-text {
@@ -213,6 +214,7 @@ body {
   line-height: 1.9;
   letter-spacing: 0.03em;
   color: var(--main-text-color);
+  text-decoration: none;
 }
 
 .hero-button-portfolio {
